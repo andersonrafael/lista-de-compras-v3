@@ -1,5 +1,5 @@
 html {
-    background: linear-gradient(177.52deg, #4574E3 2.11%, #154580 81.34%);
+    background: linear-gradient(177.52deg, #090909 2.11%, #1b1b1b 81.34%);
     background-repeat: no-repeat;
     height: 100%;
 }
@@ -8,21 +8,15 @@ body {
     font-family: 'Montserrat', 'sans-serif', 'Mansalva', cursive;
 }
 
-h2, footer {
+h2,
+footer {
     font-family: 'Mansalva';
 }
 
-button {
-    border: none;
-}
-
 .itens-comprados {
-text-decoration: line-through;
+    text-decoration: line-through;
 }
 
-.borda-lista {
-    border-bottom: dotted 2px blue;
-}
 
 input:disabled {
     border: none;
@@ -36,3 +30,38 @@ input {
     color: black;
 }
 
+.button {
+    background: linear-gradient(177.52deg, #04aef1 2.11%, #182a4a 81.34%);
+    background-repeat: no-repeat;
+    height: 100%;
+    font-weight: 800;
+    color: aliceblue;
+    margin: 15px;
+}
+
+.listaDeCompras {
+    background: linear-gradient(177.52deg, #04aef1 2.11%, #141f32 81.34%);
+    background-repeat: no-repeat;
+    height: 100%;
+    color: aliceblue;
+    font-weight: 800;
+    font-size: 25px;
+    padding: 5px;
+}
+
+.listaDeCompras {
+    background: linear-gradient(177.52deg, #04aef1 2.11%, #182a4a 81.34%);
+    background-repeat: no-repeat;
+    height: 100%;
+    font-weight: 800;
+    font-size: 25px;
+    padding: 5px;
+}
+
+.desenvolvimento {
+    color: rgb(219, 246, 247);
+    font-weight: 800;
+    font-size: 15px;
+    padding: 5px;
+    text-align: center;
+}
